@@ -1,19 +1,89 @@
-html {
+html{
+    height:100%;
+}
+body {
+    background-color: black;
+    color: #EAEAEA;
     height: 100%;
+    margin: 0px;
+    font-family: 'Lora', serif;
 }
 
-body {
-    height: 100%;
-    
+.header {
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px;
+    color: #8e7932;
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    background-color: #231f20;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 a {
+    color: #8e7932;
     text-decoration: none;
 }
 
 .main {
     height: 100%;
+    background-image: url("https://i2-prod.mirror.co.uk/incoming/article2934688.ece/ALTERNATES/s1200/Main-Beyonce.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: #8e7932;
+    background-color: #231f20;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
 .social-image{
     width: 30px;
     margin: 15px;
+}
+
+.aboutMain { 
+    display: flex;
+    height: 100%;
+}
+
+.leftPane {
+    width: 50%;
+    font-size: 20px;
+    color:grey;
+}
+
+.rightPane {
+    width: 50%;
+    background-image: url("https://i.pinimg.com/736x/ab/47/f8/ab47f80a01764430a8c3ed304c5f2aac--classy-lady-vodka.jpg");
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.thumbnail {
+    margin: 30px;
+    width: 250px;
+    height: 250px;
+}
+
+.thumbnail-image {
+    height: 100%;
+    width: 100%;
 }
